@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  header
+      .centering
+        .logo
+          p Adventures in Coding While Brown
+        nav
+          ul
+            li
+              a(href='http://localhost:3000/about') About
+            li
+              a(href='https://www.linkedin.com/in/rcbrown84/', target='_blank') LinkedIn
+            li
+              a(href='https://www.github.com/generalmeow', target='_blank') Github
+            li
+              a(href='#') Portfolio
+  main
+    .page
+      .centering.cf
+        ul.breadcrums
+          li
+            a(href='/') Home
+          // <li><a href="#">December</a></li>
+          // <li><span>Page Example</span></li>
+      .centering
+        .main-layout
+          h1 Adventures in Coding While Brown
+          ul.posts
+            li.post
