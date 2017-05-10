@@ -125,6 +125,16 @@ a:visited:hover {
 /* ---------------------
 END Reset
 ----------------------*/
+
+.aboutimage {
+  margin-top: 20px;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .centering {
   margin: auto;
   max-width: 1140px;
