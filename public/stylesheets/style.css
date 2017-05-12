@@ -116,6 +116,10 @@ html {
 a,
 a:visited {
   color: white;
+ -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: grey;
+  color: grey;
   text-decoration: none;
 }
 a:hover,
@@ -133,8 +137,8 @@ END Reset
 
 .aboutimage {
   margin-top: 20px;
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -191,6 +195,9 @@ nav ul li {
 }
 nav ul li a {
   color: white;
+}
+.headerspace{
+  margin-bottom: 20px;
 }
 .page {
   background-color: #EEE;
