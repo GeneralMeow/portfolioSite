@@ -9,6 +9,7 @@ npm start
 3.navigate to localhost:3000
 
 
+## Specs
 
 - [ ] Site is hosted (I recommend Heroku or gh-pages)
 - [X] Site prominently features link to your GitHub
