@@ -1,8 +1,9 @@
 # portfolioSite
+1.git clone repo to your terminal
 
-to run:
+2.to run:
 ```
 npm start
 ```
 
-navigate to localhost:3000
+3.navigate to localhost:3000
