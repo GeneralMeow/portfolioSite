@@ -116,6 +116,10 @@ html {
 a,
 a:visited {
   color: white;
+ -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: grey;
+  color: grey;
   text-decoration: none;
 }
 a:hover,
@@ -125,6 +129,21 @@ a:visited:hover {
 /* ---------------------
 END Reset
 ----------------------*/
+.portoneimage {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.aboutimage {
+  margin-top: 20px;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .centering {
   margin: auto;
   max-width: 1140px;
@@ -176,6 +195,9 @@ nav ul li {
 }
 nav ul li a {
   color: white;
+}
+.headerspace{
+  margin-bottom: 20px;
 }
 .page {
   background-color: #EEE;
